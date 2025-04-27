@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmana Svaadham - Traditional Obbattu</title>
+    <link rel="stylesheet" href="obbatu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-spinner" id="loadingSpinner"></div>
+    
+    <header>
+        <div class="brand-container">
+            <h1>Brahmana Svaadham</h1>
+            <p class="tagline">Authentic Karnataka Delicacies</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Traditional Obbattu</h2>
+            <p>Handcrafted with Love</p>
+        </section>
+
+        <section class="products" id="productsContainer">
+            <div class="product-card" data-product="bele">
+                <div class="product-image">
+                    <img src="obbattu.jpg" alt="Bele Hollige">
+                </div>
+                <h3>Bele Hollige</h3>
+                <p>Traditional chana dal stuffed sweet flatbread</p>
+                <div class="price">₹30/piece</div>
+                <div class="quantity-selector">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" value="1" min="1" max="20">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="order-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-product="kai">
+                <div class="product-image">
+                    <img src="obbattu.jpg" alt="Kai Hollige">
+                </div>
+                <h3>Kai Hollige</h3>
+                <p>Coconut filled sweet delicacy</p>
+                <div class="price">₹35/piece</div>
+                <div class="quantity-selector">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" value="1" min="1" max="20">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="order-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card" data-product="kova">
+                <div class="product-image">
+                    <img src="obbattu.jpg" alt="Kova Hollige">
+                </div>
+                <h3>Kova Hollige</h3>
+                <p>Rich milk-based sweet stuffing</p>
+                <div class="price">₹40/piece</div>
+                <div class="quantity-selector">
+                    <button class="qty-btn minus">-</button>
+                    <input type="number" value="1" min="1" max="20">
+                    <button class="qty-btn plus">+</button>
+                </div>
+                <button class="order-btn">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart-section" id="cartSection">
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems"></div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">₹0</span>
+            </div>
+        </section>
+
+        <section class="order-form">
+            <h2>Place Your Order</h2>
+            <form id="orderForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="address" placeholder="Delivery Address" required></textarea>
+                <textarea name="instructions" placeholder="Special Instructions (Optional)"></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                <p><i class="fas fa-envelope"></i> info@brahmanasvaadham.com</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Brahmana Svaadham. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="obbatuscript.js"></script>
+</body>
+</html>

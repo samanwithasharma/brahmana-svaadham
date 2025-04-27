@@ -1,0 +1,15 @@
+{
+  "name": "practicesam",
+  "version": "1.0.0",
+  "main": "obbatuorder.js",
+  "scripts": {
+    "start": "node obbatuorder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

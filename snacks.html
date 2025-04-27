@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmana Svaadham - Traditional Spice Powders</title>
+    <link rel="stylesheet" href="./snacks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <h1>Brahmana Svaadham</h1>
+                <p>Traditional South Snacks</p>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cartCount">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="image-slider">
+                <!-- Images will be added dynamically via JavaScript -->
+                 <img src="./tengole.png" alt="">
+                 <img src="./mysore pak.jpg" alt="">
+                 <img src="./muchore.jpg" alt="">
+                 <img src="./gulpapdi.gif" alt="">
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Our Premium Snacks(Murukulu)</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="chakli">
+                    <div class="product-image">
+                        <img src="./chakli.jpg" alt="chakli">
+                    </div>
+                    <h3>Chakli</h3>
+                    <p>Homemade crispy spiral made with rice flour</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-id="muchore">
+                    <div class="product-image">
+                        <img src="./muchore.jpg" alt="Muchore">
+                    </div>
+                    <h3>Muchore</h3>
+                    <p>Spiced snack made from rice flour</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-id="tengole">
+                    <div class="product-image">
+                        <img src="./tengole.png" alt="tengole">
+                    </div>
+                    <h3>Tengole</h3>
+                    <p>Tasty fried snack with coconut flavor</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                 <!--vangibath powder-->
+                 <div class="product-card" data-id="kadubu">
+                    <div class="product-image">
+                        <img src="./kadubu.jpg" alt="kadubu">
+                    </div>
+                    <h3>Kadubu</h3>
+                    <p>Steamed dumpling with a sweet filling</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-id="pappu">
+                    <div class="product-image">
+                        <img src="./kodbele.webp" alt="kodbele">
+                    </div>
+                    <h3>Kodbele</h3>
+                    <p>Crunchy homemade rings with a hint of spice</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!--pulyogare-->
+                <div class="product-card" data-id="pappu">
+                    <div class="product-image">
+                        <img src="./nippattu.jpg" alt="Nippattu">
+                    </div>
+                    <h3>Nippattu</h3>
+                    <p>Spicy and crispy homemade flat snack</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>      
+            </div>
+        </section>
+
+        <!--Sweets-->
+        <section class="products">
+            <h2>Sweets</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="sambar">
+                    <div class="product-image">
+                        <img src="./gulpapdi.gif" alt="gulpapdi">
+                    </div>
+                    <h3>Gulpapdi Ladoo</h3>
+                    <p>Nutty ladoo made with jaggery and wheat flour</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-id="rasam">
+                    <div class="product-image">
+                        <img src="./mysore pak.jpg" alt="Mysorepak">
+                    </div>
+                    <h3>Mysore Pak</h3>
+                    <p>Rich and soft sweet made with ghee and besan</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-id="bb">
+                    <div class="product-image">
+                        <img src="./besan laddo.jpg" alt="Besan ladoo">
+                    </div>
+                    <h3>Besan Ladoo</h3>
+                    <p>Traditional sweet made with gram flour and ghee</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">₹100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                 <!--vangibath powder-->
+                 <div class="product-card" data-id="pappu">
+                    <div class="product-image">
+                        <img src="./raveladdu.jpg" alt="Rave ladoo">
+                    </div>
+                    <h3>Rave Ladoo</h3>
+                    <p>Soft sweet balls made from semolina and ghee</p>
+                    <div class="weight">10/pc</div>
+                    <div class="price">100</div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="cart-section hidden">
+            <h2>Shopping Cart</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="totalAmount">₹0</span>
+            </div>
+            <button id="checkoutBtn">Proceed to Checkout</button>
+        </section>
+
+        <section id="checkout" class="checkout-section hidden">
+            <h2>Checkout</h2>
+            <form id="orderForm">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <textarea name="address" placeholder="Delivery Address" required></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> +91 9448759017</p>
+                <p><i class="fas fa-envelope"></i> info@brahmanasvaadham.com</p>
+            </div>
+            <div class="social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Brahmana Svaadham. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./snacksript.js"></script>
+</body>
+</html>
